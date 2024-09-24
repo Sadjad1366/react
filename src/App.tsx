@@ -1,7 +1,8 @@
 
 import './App.css'
+import { AsideDiv } from './components/AsideDiv'
 import { Contact } from './components/Contact'
-import { Inputs } from './components/Inputs'
+import { InputsDiv } from './components/InputsDiv'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,7 +10,11 @@ function App() {
   return (
  <div className='container'>
 <Contact/>
-<Inputs/>
+<div className="flex justify-between gap-x-72 mt-20">
+<InputsDiv/>
+<AsideDiv/>
+</div>
+
  </div>
   )
 }
