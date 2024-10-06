@@ -34,7 +34,7 @@ export function AsideDiv() {
         <div className="flex mt-8">
           <input
             className="border-b-4 mb-2 outline-none"
-            type="text"
+            type="email"
             placeholder="Email"
           />
           <button className="bg-green-app w-16 h-14 flex justify-center items-center mx-6 mb-2">
